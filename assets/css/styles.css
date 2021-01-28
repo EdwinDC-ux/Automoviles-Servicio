@@ -1,0 +1,13 @@
+.navbar .container .collapse ul li .nav-link {
+  color: #5f5fff;
+}
+
+.navbar .container .collapse ul li .nav-link:hover {
+  color: blue;
+  font-weight: bold;
+}
+
+.container .row h1, .container .row label, .container .row input {
+  color: blue;
+}
+/*# sourceMappingURL=styles.css.map */
