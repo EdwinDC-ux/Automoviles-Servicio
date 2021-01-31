@@ -1,0 +1,18 @@
+.container{
+    #articleCont{
+        .item{
+            border: 1px solid blue;
+            margin-bottom: 2rem;
+            .row{
+                .imgCont{
+                    height: 175px;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

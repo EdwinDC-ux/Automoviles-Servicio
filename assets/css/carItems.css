@@ -1,0 +1,19 @@
+.container #articleCont .item {
+  border: 1px solid blue;
+  margin-bottom: 2rem;
+}
+
+.container #articleCont .item .row .imgCont {
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container #articleCont .item .row .imgCont img {
+  margin: auto;
+}
+/*# sourceMappingURL=carItems.css.map */
