@@ -10,4 +10,13 @@
 .container .row h1, .container .row label, .container .row input {
   color: blue;
 }
+
+.container .row button {
+  background-color: #5f5fff;
+}
+
+.container .row button:hover {
+  background-color: blue;
+  font-weight: bold;
+}
 /*# sourceMappingURL=styles.css.map */
