@@ -16,8 +16,20 @@ const printData = car => {
     const $rowCont = $(`<div class="row justify-content-center"></div>`)
     const $colCont = $(`<div class="col-md-5 item"></div>`)
     const $container = $("#articleCont")
+    const $buttonUpDate = $('<a>Actualizar fecha de entrega<a>')
 
-    $articleCont.append($make, $model, $id, $km, $dateIn, $descr, $dateOut, $personName)
+    $buttonUpDate.on("click",function(){
+        const $form = $(`<form></form>`)
+        const $namePerson = $(`<label>Ingrese al encargado</label>`)
+        const $person = $(`<input type="text" class="form-control" id="marca" name="make" required>`)
+        const $date = $(`<label>Ingrese la fecha</label>`)
+        const $dateDelivery = $(`<input type="date" class="form-control" name="estimateDeliveryDate" id="estimada">`)
+        
+        $form.append($namePerson,$person,$date,$dateDelivery)
+        $articleCont.append($form)
+    })
+    n 
+    $articleCont.append($make, $model, $id, $km, $dateIn, $descr, $dateOut, $personName, $buttonUpDate)
     $imgCont.append($image)
     $rowCont.append($imgCont, $articleCont)
     $colCont.append($rowCont)
