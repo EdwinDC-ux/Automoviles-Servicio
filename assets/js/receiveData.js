@@ -28,7 +28,7 @@ const printData = car => {
         $form.append($namePerson,$person,$date,$dateDelivery)
         $articleCont.append($form)
     })
-    n 
+    
     $articleCont.append($make, $model, $id, $km, $dateIn, $descr, $dateOut, $personName, $buttonUpDate)
     $imgCont.append($image)
     $rowCont.append($imgCont, $articleCont)
