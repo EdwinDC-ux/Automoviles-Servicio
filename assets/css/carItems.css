@@ -3,6 +3,10 @@
   margin-bottom: 2rem;
 }
 
+.container #articleCont .item .row {
+  padding: 0.75rem 0;
+}
+
 .container #articleCont .item .row .imgCont {
   height: 175px;
   display: -webkit-box;
@@ -15,5 +19,17 @@
 
 .container #articleCont .item .row .imgCont img {
   margin: auto;
+}
+
+.container #articleCont .item .row .formCont {
+  display: block;
+}
+
+.container #articleCont .item .row .formCont .elementFormCont {
+  padding: 0.5rem 0;
+}
+
+.container #articleCont .item .row .buttonCont {
+  padding: 0.5rem 0;
 }
 /*# sourceMappingURL=carItems.css.map */
