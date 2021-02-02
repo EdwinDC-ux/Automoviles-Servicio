@@ -2,7 +2,7 @@
 
 const printData = car => {
     let id = `${car.id}`
-    const $image = $(`<img src="${car.image}" class="img-fluidimg">`)
+    const $image = $(`<img src="${car.image}" class="img-fluid"></img>`)
     const $make = $(`<p class="makeMarca">${car.make}</p>`)
     const $model = $(`<p class="modelModelo"> ${car.model}</p>`)
     const $id = $(`<p class="identif">Id ${car.id}</p>`)
@@ -52,9 +52,9 @@ const updateData = (car, id) => {
         $(``).replaceAll("#update")
     })
 
-    //$buttonAdd.click(function(){
+    $buttonAdd.click(function(){
         
-    //})
+    })
 
 }
 
